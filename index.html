@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Law Office of Robert B Frey PLLC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond&family=Cormorant+SC&display=swap" rel="stylesheet"> 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond&family=Cormorant+SC&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', Garamond, serif;
+  padding: 10px 15% 0px 15%;
+  background: #000000;
+  color: #ffffff;
+}
+
+.siteContainer {
+  width: 920px;
+  margin:auto;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/* LOGO */
+.logo {
+   position: relative;
+	width:650px;
+}
+.logo_svgStar {
+	width:132px;
+	position:relative;
+	float:left;
+	top:1%;
+	right:0;
+	display:block;
+}
+.logo_text {
+	text-align: center;
+	float:left;
+	position:relative;
+	display:block;
+	margin: 0px 0px 0px 0px;
+	padding: 0 0 0 30px;
+}
+.logo_TheLawOfficeof {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-size: 42px;
+	margin: 0px 0px -5% -3%;
+}
+.logo_RobertBFrey {
+	font-family: 'Cormorant SC', Garamond, serif;
+	font-size: 72px;
+	margin: 0px 0px 0px 0px;
+}
+.logo_PLLC {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-size: 40px;
+	margin: -4% 0px 0px 2%;
+	letter-spacing:3px;
+}  
+/* END LOGO */
+
+p {
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    }
+
+p.shortBio {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+h1 { margin: 0px 0px 20px 0px;
+     padding: 0px 0px 20px 0px;
+     font-family: 'Cormorant SC', Garamond, serif;
+     font-size: 60px;
+}
+
+h2 { margin: 0;
+}
+
+h2.CTA {
+text-align: center;
+width: 100%;
+margin: auto;
+padding: 0px 25% 0px 25%;
+}
+
+
+h2.shortBio {
+text-indent: 2em; 
+text-align: justify;
+}
+
+h3 {
+padding: 0 0 0 30px;
+}
+
+.whiteSurround {
+  background-color:#ffffff;
+  padding: 2px 0px 0px 0px;
+width: 100%;
+}
+
+.mainContent {
+  padding: 20px;
+  background-color:black;
+  width: 100%;
+  text-align: center;
+}
+
+/* Contact Button columns */
+.row {
+  padding: 0px 100px 0px 100px;
+  background-color:black;
+  width: 100%;
+}
+
+.contactColumn {
+  float: left;
+  width: 40%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align:center;
+  padding: 20px 10px 0px 10px;
+  margin: auto;
+  min-height: 100%;
+}
+
+.contactColumn:hover {
+  font-weight: 900;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.contactnow p {
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.spacercolumn {
+ float: left;
+ width: 4%;
+ background-color:#000000;
+}
+
+.outsideSpacerColumn {
+ float: left;
+ width: 8%;
+ background-color:#000000;
+ display:inline;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #000;
+  margin-top: 20px;
+}
+.socialLinks {
+  display: table;
+  margin:auto;
+
+}
+.socialLinks a img {
+  margin: 5px;
+  padding: 2px;
+  vertical-align: middle;
+  display: inline;
+}
+.socialLinks a h3 {
+  vertical-align: middle;
+  display: inline;
+  color: #ffffff;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 600px) {
+.logo {
+   position: relative;
+width:320px;
+  }
+
+.logo_svgStar {
+	position:relative;
+	float:left;
+	top:1%;
+	right:0;
+	display:block;
+	width:66px;
+}
+.logo_text {
+	text-align: center;
+	float:left;
+	position:relative;
+	display:block;
+	margin: 0px 0px 0px 0px;
+	padding: 0 0 0 16px;
+}
+.logo_TheLawOfficeof {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-size: 21px;
+	margin: 0px 0px -5% -3%;
+}
+.logo_RobertBFrey {
+	font-family: 'Cormorant SC', Garamond, serif;
+	font-size: 36px;
+	margin: 0px 0px 0px 0px;
+}
+.logo_PLLC {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-size: 20px;
+	margin: -4% 0px 0px 2%;
+	letter-spacing:3px;
+}  
+
+body {
+   padding: 0px;
+  }
+
+.siteContainer  {
+    max-width: 100%;
+  margin:auto;
+}
+.header {
+    max-width: 100%;
+    padding: 10px;
+    margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contactColumn {   
+    width: 275px; 
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+    float: none;
+}
+
+.spacercolumn {
+    width: 275px; 
+    float: none;
+}
+
+.outsideSpacerColumn {
+    display:none;
+}
+
+.whiteSurround {
+    max-width: 100%;
+}
+a {
+text-decoration: inherit;
+}
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media only screen and (min-width: 600px) {
+.logo {
+   position: relative;
+width:480px;
+  }
+
+.logo_svgStar {
+	position:relative;
+	float:left;
+	top:1%;
+	right:0;
+	display:block;
+	width:99px;
+}
+.logo_text {
+	text-align: center;
+	float:left;
+	position:relative;
+	display:block;
+	margin: 0px 0px 0px 0px;
+	padding: 0 0 0 24px;
+}
+.logo_TheLawOfficeof {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-size: 32px;
+	margin: 0px 0px -5% -3%;
+}
+.logo_RobertBFrey {
+	font-family: 'Cormorant SC', Garamond, serif;
+	font-size: 54px;
+	margin: 0px 0px 0px 0px;
+}
+.logo_PLLC {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-size: 30px;
+	margin: -4% 0px 0px 2%;
+	letter-spacing:2px;
+}  
+
+body {
+   padding: 0px;
+}
+
+.siteContainer  {
+    max-width: 100%;
+    margin:auto;
+}
+.header {
+    max-width: 100%;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contactColumn {   
+    width: 275px; 
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+    float: none;
+  }
+
+.spacercolumn {
+    width: 275px; 
+    float: none;
+}
+
+.outsideSpacerColumn {
+    display:none;
+}
+
+.whiteSurround {
+    max-width: 100%;
+  }
+  
+a {
+text-decoration: inherit;
+}
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media only screen and (min-width: 960px) {
+.logo {
+   position: relative;
+	width:650px;
+}
+.logo_svgStar {
+	width:132px;
+	position:relative;
+	float:left;
+	top:1%;
+	right:0;
+	display:block;
+}
+.logo_text {
+	text-align: center;
+	float:left;
+	position:relative;
+	display:block;
+	margin: 0px 0px 0px 0px;
+	padding: 0 0 0 30px;
+}
+.logo_TheLawOfficeof {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-size: 42px;
+	margin: 0px 0px -5% -3%;
+}
+.logo_RobertBFrey {
+	font-family: 'Cormorant SC', Garamond, serif;
+	font-size: 72px;
+	margin: 0px 0px 0px 0px;
+}
+.logo_PLLC {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-size: 40px;
+	margin: -4% 0px 0px 2%;
+	letter-spacing:3px;
+}   
+
+body {
+   padding: 0px;
+}
+
+.siteContainer  {
+    max-width: 100%;
+    margin:auto;
+}
+.header {
+    max-width: 100%;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.whiteSurround {
+    max-width: 100%;
+}
+
+.outsideSpacerColumn {
+ float: left;
+ width: 8%;
+ background-color:#000000;
+ display:inline;
+}
+.contactColumn {
+  float: left;
+  width: 40%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align:center;
+  padding: 20px 10px 25px 10px;
+  margin: auto;
+  min-height: 100%;
+}
+
+.contactColumn:hover {
+  font-weight: 900;
+}
+
+.spacercolumn {
+ float: left;
+ width: 4%;
+ background-color:#000000;
+}
+
+
+
+</style>
+
+<!-- Email obfuscation javascript -->
+<SCRIPT LANGUAGE="JavaScript">
+	user = '&#104;&#101;&#108;&#112;';
+	site = '&#114;&#111;&#98;&#101;&#114;&#116;&#98;&#102;&#114;&#101;&#121;&#46;&#99;&#111;&#109;';
+</script>
+</head>
+<body>
+
+<div class="siteContainer">
+<div class="header">
+<div class="logo">
+	<!-- Logo SVG-->
+	<div class="logo_svgStar">
+		<svg class="svgStar" 
+			xmlns="http://www.w3.org/2000/svg" 
+
+			viewBox="-952.0075728 -1001 1904.0151456 1810.8260114">
+ 		  <title>Star</title>
+  		
+ 		  <path style="fill:#ffffff" d="M0,-1000L-587.7852523,809.0169944L951.0565163,-309.0169944H-951.0565163L587.7852523,809.0169944Z"/>
+ 		  <path style="fill:#000000" id="str" d="M0,0V-909.15L-204.1168925,-280.9428004Z"/>
+ 		    <use xlink:href="#str" transform="rotate(72)"/>
+ 		    <use xlink:href="#str" transform="rotate(144)"/>
+		    <use xlink:href="#str" transform="rotate(216)"/>
+ 		    <use xlink:href="#str" transform="rotate(288)"/>
+		</svg>
+&nbsp;
+	</div>
+	<!-- CLOSE Logo SVG-->
+	<!-- Logo Text -->
+	<div class="logo_text">
+		<div class="logo_TheLawOfficeof">
+			<p>The Law Office of</p>
+		</div>
+		<div class="logo_RobertBFrey">
+			<p>Robert B Frey</p>
+		</div>
+		<div class="logo_PLLC">
+			<p>PLLC</p>
+		</div>
+	</div>
+	<!-- CLOSE Logo Text -->
+
+</div>
+<!-- CLOSE <div class="logo"> -->
+</div>
+<!-- CLOSE <div class="header"> -->
+
+<div class="whiteSurround">
+  <div class="mainContent">
+
+<h1>Denton County <br /> Criminal Defense</h1>
+
+<p class="shortBio">Robert Frey is an attorney based in Denton, Texas. His practice is focused primarily on defending adults and juveniles charged with or accused of committing a crime. </p>
+<br /><br />
+
+<h2 class="CTA">Call or Email Now for a Free Consultation</h2>
+
+  </div>
+<!-- CLOSE <div class="mainContent"> -->
+
+<div class="row">
+<!-- Outside Spacer -->
+<div class="outsideSpacerColumn">
+    &nbsp;
+</div>
+<!-- END Spacer -->
+
+<!-- Telephone Button -->
+  <a href="tel:+19403317131">
+  <div class="contactColumn">
+    <div class="card">
+      <h2>Phone</h2>
+         <div class="contactnow">
+	  <p>940-331-7131</p>
+ 	 </div>
+	</div>
+</div></a>
+<!-- END Telephone Button -->
+
+<!-- Spacer -->
+<div class="spacercolumn">&nbsp;   
+
+</div>
+<!-- END Spacer -->
+
+<!-- Email Button -->
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;' + user + '&#64;' + site + '\">');
+</SCRIPT>
+<noscript><a style="unicode bidi: bidi-override; direction:rtl;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;
+&#109;&#111;&#99;&#46;&#121;&#101;&#114;&#102;&#98;&#116;&#114;&#101;&#98;&#111;&#114;&#64;&#112;&#108;&#101;&#104;" rel="nofollow">
+</noscript>
+ <div class="contactColumn">
+    <div class="card">
+      <h2>Email</h2>
+         <div class="contactnow"> 	 
+<SCRIPT LANGUAGE="JavaScript">
+	document.write('<p>' + user + '&#64;' + site + '</p>');
+</SCRIPT>
+<noscript><p style="unicode-bidi: bidi-override; direction:rtl;">
+&#109;&#111;&#99;&#46;&#121;&#101;&#114;&#102;&#98;&#116;&#114;&#101;&#98;&#111;&#114;&#64;&#112;&#108;&#101;&#104;</p>
+</noscript>
+ 	 </div>
+    </div>
+</div>
+</a>
+<!-- END Email Button -->
+
+<!-- Outside Spacer -->
+<div class="outsideSpacerColumn">
+    &nbsp;
+</div>
+<!-- END Spacer -->
+
+  </div>
+<!-- CLOSE <div class="row"> -->
+
+</div>
+<!-- CLOSE <div class="whiteSurround"> -->
+
+<div class="footer">
+<h2> Office Location:</h2>
+ <p> 1332 Teasley Ln. #237, Denton, TX 76205</p>
+<p> <i>(by appointment only)</i></p> 
+
+<br />
+<div class="socialLinks">
+<a href="https://www.facebook.com/RobertBFreyLaw"> <h3>Connect with Robert on Facebook:</h3> <img src="images/facebook.png" alt="Connect with The Law Office of Robert B Frey, PLLC on Facebook" style="width:30px; height:30px;" /> </a>
+</div>
+
+
+<br />
+<p> &copy; 2022 - The Law Office of Robert B Frey, PLLC</p>
+<br />
+
+</div>
+</div>
+</body>
+</html>
+
+
