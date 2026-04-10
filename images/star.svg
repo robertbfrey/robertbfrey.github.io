@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="185"
+   height="185"
+   viewBox="0 0 48.947916 48.947916"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="LOGOdrawing - Copy.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.1536196"
+     inkscape:cx="109.08101"
+     inkscape:cy="84.188975"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999999"
+       spacingy="0.99999999"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <clipPath
+       id="clip-0">
+      <path
+         clip-rule="nonzero"
+         d="m 62.25,101.80078 h 99 v 94.5 h -99 z m 0,0"
+         id="path1-7" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.157213,-61.059102)">
+    <g
+       id="g3"
+       style="display:inline"
+       transform="matrix(0.95033194,0,0,0.95033194,4.3745586,5.852885)">
+      <path
+         fill-rule="nonzero"
+         fill="#000000"
+         fill-opacity="1"
+         d="M 111.75,101.85156 81.191406,196.25781 161.19922,137.91406 H 62.300781 l 80.007809,58.34375 z m 0,0"
+         id="path2"
+         style="display:inline"
+         transform="matrix(0.48310215,0,0,0.48310215,13.059572,11.854394)" />
+      <path
+         fill-rule="nonzero"
+         fill="#ffffff"
+         fill-opacity="1"
+         d="M 54.197264,70.595641 V 58.042403 l -2.808097,8.674407 z m 0,0"
+         id="path3"
+         style="display:inline;stroke-width:0.264583"
+         transform="matrix(1.8258979,0,0,1.8258979,-31.912436,-42.629442)" />
+      <path
+         fill-rule="nonzero"
+         fill="#ffffff"
+         fill-opacity="1"
+         d="m 54.197264,70.595641 7.351494,10.155452 -2.808103,-8.673372 z m 0,0"
+         id="path5"
+         style="display:inline;stroke-width:0.264583"
+         transform="matrix(1.8258979,0,0,1.8258979,-31.912436,-42.629442)" />
+      <path
+         fill-rule="nonzero"
+         fill="#ffffff"
+         fill-opacity="1"
+         d="m 54.197264,70.595641 -7.351489,10.155452 7.351489,-5.360911 z m 0,0"
+         id="path6"
+         style="display:inline;stroke-width:0.264583"
+         transform="matrix(1.8258979,0,0,1.8258979,-31.912436,-42.629442)" />
+      <path
+         fill-rule="nonzero"
+         fill="#ffffff"
+         fill-opacity="1"
+         d="m 54.197264,70.595641 -11.893847,-3.878831 7.350455,5.360911 z m 0,0"
+         id="path7"
+         style="display:inline;stroke-width:0.264583"
+         transform="matrix(1.8258979,0,0,1.8258979,-31.912436,-42.629442)" />
+      <path
+         fill-rule="nonzero"
+         fill="#ffffff"
+         fill-opacity="1"
+         d="M 54.197264,70.595641 66.091108,66.71681 h -9.085747 z m 0,0"
+         id="path4"
+         style="display:inline;stroke-width:0.264583"
+         transform="matrix(1.8258979,0,0,1.8258979,-31.912436,-42.629442)" />
+      <g
+         clip-path="url(#clip-0)"
+         id="g2"
+         transform="matrix(0.48310216,0,0,0.48310216,13.059572,11.854394)"
+         style="display:inline" />
+    </g>
+  </g>
+</svg>
